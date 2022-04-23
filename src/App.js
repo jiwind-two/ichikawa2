@@ -1,5 +1,6 @@
 import "./styles.css";
 import { useState } from "react";
+import { childArea } from "./childArea";
 
 export default function App() {
   console.log("App");
@@ -13,6 +14,8 @@ export default function App() {
       <br />
       <br />
       <button>表示</button>
+
+      <childArea />
     </div>
   );
 }
