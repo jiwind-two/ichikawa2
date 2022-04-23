@@ -10,6 +10,8 @@ export default function App() {
   return (
     <div className="App">
       <input />
+      <br />
+      <br />
       <button>表示</button>
     </div>
   );
